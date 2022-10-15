@@ -4,8 +4,8 @@
 install -d /usr/local/etc/trojan-go
 cat << EOF > /usr/local/etc/trojan-go/config.yaml
 run-type: server
-local-addr: 0.0.0.0
-local-port: $PORT
+#local-addr: 0.0.0.0
+#local-port: $PORT
 remote-addr: 127.0.0.1
 remote-port: 4325
 log-level: 5
