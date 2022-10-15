@@ -7,7 +7,7 @@ run-type: server
 local-addr: 0.0.0.0
 local-port: $PORT
 remote-addr: 127.0.0.1
-remote-port: 4324
+remote-port: 4325
 log-level: 5
 password:
     - $PASSWORD
